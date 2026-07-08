@@ -1,0 +1,8 @@
+{
+  "name": "Variables & Styles to JSON",
+  "id": "token-exporter-dev",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"]
+}
