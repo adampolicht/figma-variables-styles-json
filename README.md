@@ -1,4 +1,4 @@
-# Variables & Styles to JSON — Figma Plugin
+# Variables & Styles to JSON - Figma Plugin
 
 A free, open-source Figma plugin that exports **Variables** and **Styles** from your design file into developer-ready formats: JSON, CSS custom properties, and TypeScript constants.
 
@@ -97,8 +97,8 @@ This plugin is not yet published to the Figma Community. Install it locally:
 
 1. Download or clone this repository
 2. Open **Figma desktop** (browser does not support local plugins)
-3. Go to `Plugins → Development → Import plugin from manifest`
-4. Select `manifest.json` from this folder
+3. Go to `Plugins → New Plugin → Run Once (Save As)`
+4. Copy/Replace all files to the created Folder
 5. Run via `Plugins → Development → Variables & Styles to JSON`
 
 ---
@@ -107,8 +107,8 @@ This plugin is not yet published to the Figma Community. Install it locally:
 
 ```
 ├── manifest.json   # Plugin metadata
-├── code.js         # Plugin logic — reads Figma API (runs in sandbox)
-└── ui.html         # Plugin UI — generates CSS/TS, handles downloads
+├── code.js         # Plugin logic - reads Figma API (runs in sandbox)
+└── ui.html         # Plugin UI - generates CSS/TS, handles downloads
 ```
 
 ---
