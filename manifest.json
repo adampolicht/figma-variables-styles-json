@@ -1,6 +1,6 @@
 {
   "name": "Variables & Styles to JSON",
-  "id": "token-exporter-dev",
+  "id": "var-style-exporter",
   "api": "1.0.0",
   "main": "code.js",
   "ui": "ui.html",
